@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MyToolBarTheme" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!--更改溢出菜单文字颜色-->
+        <item name="android:textColor">@color/colorAccent</item>
+        <!--更改toolbar菜单文字大小，包括溢出菜单上的，和显示上的-->
+        <item name="android:textSize">159sp</item>
+        <!--更改toolbar上的菜单显示文字颜色-->
+        <item name="android:actionMenuTextColor">@color/colorPrimaryDark</item>
+        <!-- 设置Menu窗口不覆盖Toolbar视图 -->
+        <item name="overlapAnchor">false</item>
+        <!--设置title与navigationIcon的间隔-->
+        <item name="contentInsetStart">0dp</item>
+        <item name="contentInsetLeft">0dp</item>
+        <item name="contentInsetStartWithNavigation">0dp</item>
+    </style>
+
+    <!--Toolbar Text Style-->
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+</resources>
